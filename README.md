@@ -1,4 +1,4 @@
-## Hi there 👋
+## HUman REadable Twin EXplainer for Deap Learning Models
 
 <!--
 **huretex/huretex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
