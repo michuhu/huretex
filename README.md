@@ -1,4 +1,4 @@
-## HUman REadable Twin EXplainer for Deep Learning Models
+## HUman REadable Twin EXplainer for Deep Learning Models v. 0.0.1
 
 An example for the MNIST data.
 
