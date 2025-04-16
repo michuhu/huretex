@@ -6,6 +6,10 @@ Requirements:
 
 - NumPy < 2.0
 
+Note:
+
+- Hierarchical clustering of activations takes a little longer, please be patient.
+
 <!--
 **huretex/huretex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
