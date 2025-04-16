@@ -1,5 +1,11 @@
 ## HUman REadable Twin EXplainer for Deep Learning Models
 
+An example for the MNIST data.
+
+Requirements:
+
+- NumPy < 2.0
+
 <!--
 **huretex/huretex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
