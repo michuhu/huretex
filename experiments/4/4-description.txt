@@ -1,0 +1,18 @@
+Na klastrach aktywacji dla predykcji cyfry „2” można wyróżnić następujące elementy konstrukcyjne:
+
+Górny segment liniowy
+Pełni rolę prostej, poziomej kreski odpowiadającej za górną belkę „2”.
+Jest to instancja klasy LiniaProsta (podklasa SegmentLiniowy).
+Segment ten jest zlokalizowany w StrefaGórna (podklasa PozycjaWPrzestrzeni).
+Punkt załamania i środkowy łuk
+W miejscu, w którym kreska przechodzi w pochyły spadek, pojawia się PunktZałamania (podklasa PunktCharakterystyczny).
+Dalej aktywacje przypominają klasę Łuk (podklasa SegmentLiniowy), tworzącą charakterystyczne zaokrąglenie w StrefaŚrodkowa.
+Dolna krzywa otwarta
+Dolna część cyfry nie zamyka się w pełną pętlę, lecz ciągnie się w postaci KrzywaOtwarta (podklasa SegmentLiniowy) do StrefaDolna.
+Brak zamkniętej przestrzeni oznacza niski StopieńZamknięcia (podklasa Makrokonstrukcja).
+Kształt złożony
+Połączenie środkowego łuku i dolnej krzywej tworzy luźny Brzuszek (podklasa KształtZłożony), ale bez pełnej pętli – nie ma instancji Pętla ani ZamkniętaPrzestrzeń.
+Makrokonstrukcja i symetria
+Sieć rozpoznaje dwie główne trajektorie ruchu pióra, czyli LiczbaPociągnięć ≈ 2 (podklasa Makrokonstrukcja).
+Obiekt wykazuje niski StopieńSymetrii (podklasa Makrokonstrukcja), co odzwierciedla naturalne odchylenie rysunku cyfry 2 od idealnej osi pionowej.
+Całość dobrze mapuje gest pisania „2”: najpierw poziomy ruch (LiniaProsta), potem załamanie (PunktZałamania) i zjazd łukiem (Łuk), a na końcu otwarte dociągnięcie (KrzywaOtwarta), generujące niezamknięty Brzuszek o niewielkiej symetrii.

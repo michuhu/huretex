@@ -1,0 +1,2 @@
+To co widzisz na zdjęciach to sklastrowane warstwy aktywacji dwóch warstw sieci neuronowej, której zadaniem jest rozpoznawanie cyfr pisanych ręcznie. W  tym przypadku są to sklastrowane warstwy dla predykcji cyfry 2. Opisz artefakty językiem naturalnym używając załączonej poniżej ontologii:
+Ontologia:

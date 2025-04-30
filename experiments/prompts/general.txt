@@ -1,0 +1,2 @@
+używając języka naturalnego opisz załączony artefakt korzystając z załączonej ontologii:
+ontologia:
