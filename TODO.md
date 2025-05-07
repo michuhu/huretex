@@ -8,3 +8,7 @@
 - lepiej radzi sobie z przedstawienie artefaktów jeśli jest ich kilka, a nie tylko jeden
 - warstwy aktywacji za bardzo się na siebie nakładają, być może potrzeba więcej klastrów
 - przy rozbiciu na 10 klastrów - wyniki dużo lepsze - np. klaster drugi zbiera 2
+
+
+x_train[predictions,:,:]
+predictions = predictions[predictions==8]
