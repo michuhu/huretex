@@ -4,4 +4,4 @@
 - [ ] experiment with CNN performance and overall results: adjust number of classes, filters etc.
 - [ ] measure performance and scalability
 - [ ] parallelize agglomerative clustering using GPU
-- [ ] parametrize the number of filters to display
+- [x] parametrize the number of filters to display
