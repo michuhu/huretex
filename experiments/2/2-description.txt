@@ -1,0 +1,14 @@
+Załączony artefakt można opisać w kategoriach ontologii „ontologiaCyfr” jako jeden spójny ElementKonstrukcyjny, o strukturze KształtZłożony wyspecyfikowanej jako Owal.
+
+maSegment → KrzywaZamknięta
+Artefakt składa się z pojedynczego segmentu liniowego zaklasyfikowanego jako KrzywaZamknięta, którego geometria odpowiada jednolitej, eliptycznej pętli (kąt obrotu ≈ 360°).
+składaSięZ → {ten segment}
+Owal jest zatem utworzony właśnie z tej zamkniętej krzywej, bez wyraźnych punktów łamania czy wierzchołków.
+maPunktCharakterystyczny → brak
+Brak widocznych PunktZałamania, Wierzchołków czy PunktówPrzecięcia – kształt jest gładki i ciągły.
+maMakrokonstrukcję → Makrokonstrukcja z wysokim stopniem zamknięcia i symetrii
+maStopieńZamknięcia ≈ 1.0
+maStopieńSymetrii ≈ 0.9
+jestZlokalizowanyW → StrefaŚrodkowa
+Całość jest wycentrowana i zawarta w obszarze środkowym ramki obrazu.
+Podsumowując, artefakt to centralnie położony, symetryczny owal zbudowany z jednej zamkniętej krzywej, o pełnym stopniu zamknięcia i bardzo wysokiej symetrii.

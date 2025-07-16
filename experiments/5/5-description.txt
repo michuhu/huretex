@@ -1,0 +1,21 @@
+Na sklastrowanych mapach aktywacji dla predykcji cyfry „2” można wyróżnić dwa zasadnicze elementy konstrukcyjne zgodnie z załączoną ontologią:
+
+Łuk (SegmentLiniowy→Łuk)
+Reprezentuje górne zaokrąglenie cyfry.
+PunktPoczątkowy zlokalizowany w StrefaGórna (po lewej stronie), PunktKońcowy w StrefaŚrodkowa (na środku wysokości obrazu).
+Ten segment ma określony kształt krzywej otwartej, bez zamykania przestrzeni.
+LiniaProsta (SegmentLiniowy→LiniaProsta)
+Tworzy poziomą podstawę cyfry.
+Zaczyna się od PunktPoczątkowy w StrefaDolna (po lewej), kończy w PunktKońcowy po prawej, tuż nad LiniaBazowa.
+Ułożona równolegle do osi poziomej, stanowi wyraźny, prosty odcinek.
+Całość traktowana jest jako pojedynczy ElementKonstrukcyjny („Cyfra2”) z następującą Makrokonstrukcją:
+
+LiczbaPociągnięć = 2 (pierwszy stroke – łuk, drugi stroke – linia prosta)
+StopieńZamknięcia niski (brak zamkniętej pętli w kształcie cyfry)
+StopieńSymetrii umiarkowany (asymetria pomiędzy dolną i górną częścią)
+RozmieszczenieSegmentów nierównomierne (segmenty nie dzielą przestrzeni symetrycznie)
+Dodatkowo model śledzi strukturę ruchu (StrukturaRuchu→Stroke):
+
+Kolejność: najpierw wykonanie łuku, następnie linia prosta
+Kierunek ruchu obu segmentów: od lewej ku prawej
+Taka kompozycja segmentów, punktów charakterystycznych i makrokonstrukcji pozwala sieci precyzyjnie zidentyfikować kształt cyfry „2” w pisanym ręcznie zapisie.

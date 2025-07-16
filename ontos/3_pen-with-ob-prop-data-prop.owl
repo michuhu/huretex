@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/ontologiaCyfr#"
+     xml:base="http://www.example.org/ontologiaCyfr"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+    <owl:Ontology rdf:about="http://www.example.org/ontologiaCyfr"/>
+
+    <!-- Klasy główne -->
+    <owl:Class rdf:about="#ElementKonstrukcyjny"/>
+    <owl:Class rdf:about="#SegmentLiniowy">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#PunktCharakterystyczny">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#KształtZłożony">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#StrukturaRuchu">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Makrokonstrukcja">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#PozycjaWPrzestrzeni">
+        <rdfs:subClassOf rdf:resource="#ElementKonstrukcyjny"/>
+    </owl:Class>
+
+    <!-- Podklasy SegmentLiniowy -->
+    <owl:Class rdf:about="#LiniaProsta">
+        <rdfs:subClassOf rdf:resource="#SegmentLiniowy"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Łuk">
+        <rdfs:subClassOf rdf:resource="#SegmentLiniowy"/>
+    </owl:Class>
+    <owl:Class rdf:about="#KrzywaOtwarta">
+        <rdfs:subClassOf rdf:resource="#SegmentLiniowy"/>
+    </owl:Class>
+    <owl:Class rdf:about="#KrzywaZamknięta">
+        <rdfs:subClassOf rdf:resource="#SegmentLiniowy"/>
+    </owl:Class>
+
+    <!-- Podklasy PunktCharakterystyczny -->
+    <owl:Class rdf:about="#PunktPoczątkowy">
+        <rdfs:subClassOf rdf:resource="#PunktCharakterystyczny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#PunktKońcowy">
+        <rdfs:subClassOf rdf:resource="#PunktCharakterystyczny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#PunktZałamania">
+        <rdfs:subClassOf rdf:resource="#PunktCharakterystyczny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#PunktPrzecięcia">
+        <rdfs:subClassOf rdf:resource="#PunktCharakterystyczny"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Wierzchołek">
+        <rdfs:subClassOf rdf:resource="#PunktCharakterystyczny"/>
+    </owl:Class>
+
+    <!-- Podklasy KształtZłożony -->
+    <owl:Class rdf:about="#Pętla">
+        <rdfs:subClassOf rdf:resource="#KształtZłożony"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Brzuszek">
+        <rdfs:subClassOf rdf:resource="#KształtZłożony"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Oczko">
+        <rdfs:subClassOf rdf:resource="#KształtZłożony"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Owal">
+        <rdfs:subClassOf rdf:resource="#KształtZłożony"/>
+    </owl:Class>
+    <owl:Class rdf:about="#ZamkniętaPrzestrzeń">
+        <rdfs:subClassOf rdf:resource="#KształtZłożony"/>
+    </owl:Class>
+
+    <!-- Podklasy StrukturaRuchu -->
+    <owl:Class rdf:about="#Stroke">
+        <rdfs:subClassOf rdf:resource="#StrukturaRuchu"/>
+    </owl:Class>
+    <owl:Class rdf:about="#OderwaniePisaka">
+        <rdfs:subClassOf rdf:resource="#StrukturaRuchu"/>
+    </owl:Class>
+
+    <!-- Podklasy Stroke -->
+    <owl:Class rdf:about="#Kierunek">
+        <rdfs:subClassOf rdf:resource="#Stroke"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Kolejność">
+        <rdfs:subClassOf rdf:resource="#Stroke"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Prędkość">
+        <rdfs:subClassOf rdf:resource="#Stroke"/>
+    </owl:Class>
+    <owl:Class rdf:about="#Ciśnienie">
+        <rdfs:subClassOf rdf:resource="#Stroke"/>
+    </owl:Class>
+
+    <!-- Podklasy Makrokonstrukcja -->
+    <owl:Class rdf:about="#LiczbaPociągnięć">
+        <rdfs:subClassOf rdf:resource="#Makrokonstrukcja"/>
+    </owl:Class>
+    <owl:Class rdf:about="#StopieńZamknięcia">
+        <rdfs:subClassOf rdf:resource="#Makrokonstrukcja"/>
+    </owl:Class>
+    <owl:Class rdf:about="#StopieńSymetrii">
+        <rdfs:subClassOf rdf:resource="#Makrokonstrukcja"/>
+    </owl:Class>
+    <owl:Class rdf:about="#RozmieszczenieSegmentów">
+        <rdfs:subClassOf rdf:resource="#Makrokonstrukcja"/>
+    </owl:Class>
+
+    <!-- Podklasy PozycjaWPrzestrzeni -->
+    <owl:Class rdf:about="#StrefaGórna">
+        <rdfs:subClassOf rdf:resource="#PozycjaWPrzestrzeni"/>
+    </owl:Class>
+    <owl:Class rdf:about="#StrefaŚrodkowa">
+        <rdfs:subClassOf rdf:resource="#PozycjaWPrzestrzeni"/>
+    </owl:Class>
+    <owl:Class rdf:about="#StrefaDolna">
+        <rdfs:subClassOf rdf:resource="#PozycjaWPrzestrzeni"/>
+    </owl:Class>
+    <owl:Class rdf:about="#LiniaBazowa">
+        <rdfs:subClassOf rdf:resource="#PozycjaWPrzestrzeni"/>
+    </owl:Class>
+
+ <owl:ObjectProperty rdf:about="#maSegment">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#SegmentLiniowy"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#maPunktCharakterystyczny">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#PunktCharakterystyczny"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#maKształt">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#KształtZłożony"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#maStrukturęRuchu">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#StrukturaRuchu"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#maMakrokonstrukcję">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#Makrokonstrukcja"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#jestZlokalizowanyW">
+        <rdfs:domain rdf:resource="#ElementKonstrukcyjny"/>
+        <rdfs:range rdf:resource="#PozycjaWPrzestrzeni"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#składaSięZ">
+        <rdfs:domain rdf:resource="#KształtZłożony"/>
+        <rdfs:range rdf:resource="#SegmentLiniowy"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#zawieraPunkt">
+        <rdfs:domain rdf:resource="#SegmentLiniowy"/>
+        <rdfs:range rdf:resource="#PunktCharakterystyczny"/>
+    </owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#maDługość">
+        <rdfs:domain rdf:resource="#SegmentLiniowy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maKąt">
+        <rdfs:domain rdf:resource="#SegmentLiniowy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maPołożenieX">
+        <rdfs:domain rdf:resource="#PunktCharakterystyczny"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maPołożenieY">
+        <rdfs:domain rdf:resource="#PunktCharakterystyczny"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maCiśnieniePisania">
+        <rdfs:domain rdf:resource="#Stroke"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maKierunek">
+        <rdfs:domain rdf:resource="#Stroke"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maKolejność">
+        <rdfs:domain rdf:resource="#Stroke"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#jestWStrefie">
+        <rdfs:domain rdf:resource="#PozycjaWPrzestrzeni"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maStopieńZamknięcia">
+        <rdfs:domain rdf:resource="#Makrokonstrukcja"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#maStopieńSymetrii">
+        <rdfs:domain rdf:resource="#Makrokonstrukcja"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+
+
+</rdf:RDF>

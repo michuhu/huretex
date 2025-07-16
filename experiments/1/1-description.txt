@@ -1,0 +1,80 @@
+Artefakt 1
+Typ: ElementKonstrukcyjny
+Segmenty (maSegment):
+
+Górny – KrzywaZamknięta (tworzy wyraźną pętlę)
+Dolny – KrzywaOtwarta (wydłużony ogonek schodzący w dół po prawej stronie)
+Punkty charakterystyczne (maPunktCharakterystyczny):
+PunktPoczątkowy w górnej części pętli
+PunktZałamania tam, gdzie pętla przechodzi w ogonek
+PunktKońcowy na końcu ogonka
+Kształt złożony (maKształt): Pętla + Brzuszek (zamknięta przestrzeń górna i wypukłość dolna)
+Struktura ruchu (maStrukturęRuchu): pojedynczy Stroke, brak OderwaniaPisaka, kierunek ruchu zgodny (płynne przejście)
+Makrokonstrukcja (maMakrokonstrukcję):
+LiczbaPociągnięć: 1
+StopieńZamknięcia: wysoki (pętla niemal w pełni domknięta)
+StopieńSymetrii: niski (ogonek i pętla nierównomierne)
+RozmieszczenieSegmentów: skoncentrowane wokół środka
+Pozycja w przestrzeni (jestZlokalizowanyW):
+StrefaŚrodkowa z lekkim wyjściem w StrefęDolną
+Łagodnie zaznaczona LiniaBazowa
+
+
+Artefakt 2
+Typ: ElementKonstrukcyjny
+Segmenty (maSegment):
+
+Kilka równoległych KrzywaOtwarta, nachylonych (około 45°)
+Punkty charakterystyczne (maPunktCharakterystyczny):
+Wielokrotne PunktPrzecięcia pomiędzy sąsiadującymi łukami
+Kształt złożony (maKształt): brak zamkniętej pętli – układ otwarty, rozproszony
+Struktura ruchu (maStrukturęRuchu): co najmniej 3 Stroke, dynamiczna zmiana kierunku, widoczne skoki w ciśnieniu
+Makrokonstrukcja (maMakrokonstrukcję):
+LiczbaPociągnięć: 3–4
+StopieńZamknięcia: niski (brak pętli)
+StopieńSymetrii: umiarkowany (prążki układają się w przybliżonej równoległości)
+RozmieszczenieSegmentów: równomierne pokrycie obszaru
+Pozycja w przestrzeni (jestZlokalizowanyW):
+Głównie StrefaŚrodkowa, bez wyraźnego odcięcia od dolnej czy górnej
+
+
+Artefakt 3
+Typ: ElementKonstrukcyjny
+Segmenty (maSegment):
+
+Górny – KrzywaZamknięta (pętla nieco węższa niż w artefakcie 1)
+Dolny – KrzywaOtwarta (ogonek krótszy, ale wyraźny)
+Punkty charakterystyczne (maPunktCharakterystyczny):
+PunktPoczątkowy w środkowej części górnego łuku
+PunktZałamania przy połączeniu pętli z ogonkiem
+PunktKońcowy na końcu dolnego odcinka
+Kształt złożony (maKształt): Owalna pętla + subtelny Brzuszek
+Struktura ruchu (maStrukturęRuchu): pojedynczy Stroke, równomierne ciśnienie, stała prędkość
+Makrokonstrukcja (maMakrokonstrukcję):
+LiczbaPociągnięć: 1
+StopieńZamknięcia: wysoki (ok. 0,85)
+StopieńSymetrii: niski (ok. 0,25)
+RozmieszczenieSegmentów: skupione blisko siebie
+Pozycja w przestrzeni (jestZlokalizowanyW):
+Przeważnie StrefaŚrodkowa, linia bazowa jedynie sugerowana
+
+
+Artefakt 4
+Typ: ElementKonstrukcyjny
+Segmenty (maSegment):
+
+Górny – KrzywaZamknięta (pętlą szeroko rozmyta)
+Dolny – KrzywaOtwarta (krótki, gruby ogonek)
+Punkty charakterystyczne (maPunktCharakterystyczny):
+PunktPoczątkowy nieco przesunięty w prawo w stosunku do artefaktów 1 i 3
+PunktZałamania bliżej środka figury
+PunktKońcowy krótko nad linią bazową
+Kształt złożony (maKształt): Pętlasty Owal z delikatnym Brzuszkiem
+Struktura ruchu (maStrukturęRuchu): 1 Stroke, wolniejszy ruch, łagodna zmiana kierunku i ciśnienia
+Makrokonstrukcja (maMakrokonstrukcję):
+LiczbaPociągnięć: 1
+StopieńZamknięcia: średnio-wysoki (ok. 0,75)
+StopieńSymetrii: wyższy niż w artefakcie 3 (ok. 0,35)
+RozmieszczenieSegmentów: lekko przesunięte ku prawej
+Pozycja w przestrzeni (jestZlokalizowanyW):
+Głównie StrefaŚrodkowa, ślad ogonka tuż nad LiniaBazowa

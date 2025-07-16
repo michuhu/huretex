@@ -1,0 +1,30 @@
+Na podstawie dostarczonego obrazu oraz ontologii, oto opis artefaktu w języku naturalnym, zgodnie z terminologią ontologii ontologiaCyfr:
+
+Opis elementu konstrukcyjnego na podstawie obrazu
+Artefakt przedstawiony na załączonym obrazie reprezentuje cyfrę, która wykazuje cechy charakterystyczne dla cyfry 8 z uwagi na następujące właściwości:
+
+Klasa nadrzędna: ElementKonstrukcyjny
+Obiekt stanowi przykład instancji klasy ElementKonstrukcyjny, złożonej z dwóch zamkniętych krzywych tworzących typową formę cyfry „8”.
+
+Segmenty (maSegment)
+Cyfra składa się z dwóch zamkniętych krzywych (KrzywaZamknięta), zlokalizowanych w górnej i dolnej części obrazu:
+
+PętlaGórna – krzywa zamknięta o długości około 14 jednostek i kącie 360°.
+PętlaDolna – krzywa zamknięta o długości około 16 jednostek i kącie 360°.
+Każdy z tych segmentów odzwierciedla KształtZłożony typu Pętla, będący podtypem klasy KształtZłożony.
+
+Makrokonstrukcja (maMakrokonstrukcję)
+Obiekt posiada następujące cechy makrokonstrukcyjne:
+
+StopieńZamknięcia: 1.0 — struktura w pełni zamknięta, bez widocznych przerw.
+StopieńSymetrii: około 0.95 — wysoka symetria wertykalna między pętlą górną i dolną.
+Pozycja w przestrzeni (jestZlokalizowanyW)
+Cyfra zajmuje w obrazie zarówno StrefęGórną, StrefęŚrodkową, jak i StrefęDolną, co jest typowe dla cyfr pełnych wysokości, takich jak „8”.
+
+Struktura ruchu (maStrukturęRuchu)
+Choć bez danych dynamicznych nie można wnioskować o kolejności, kierunku czy ciśnieniu pisania (Stroke), możliwe jest założenie, że forma powstała w wyniku dwóch pociągnięć tworzących dwie pętle (górną i dolną) lub jednego płynnego ruchu, co odpowiadałoby jednej strukturze Stroke.
+
+Wniosek końcowy
+Na podstawie wizualnych cech, układu segmentów, poziomu symetrii i zamknięcia, przedstawiony artefakt można opisać jako:
+
+Indywidualna instancja klasy Cyfra8, składająca się z dwóch KrzywychZamkniętych (PętlaGórna, PętlaDolna), o makrokonstrukcji Makro8 charakteryzującej się pełnym zamknięciem i wysoką symetrią.

@@ -1,0 +1,61 @@
+{
+    "folder": "samples",
+    "experiments": [{
+        "nr": 1,
+        "huretex_version": "0.0.1",
+        "datetime": "20250-04-30T11:10:00",
+        "subfolder": 7,
+        "visual": "7-warstwa1.png",
+        "ontology": "ontologia4_pen-with-ob-prop-data-prop-indiv.owl",
+        "description": "1-description.txt",
+        "model": "o4-mini-high",
+        "prompt": "general.txt"
+    },
+    {
+        "nr": 2,
+        "datetime": "20250-04-30T11:15:00",
+        "huretex_version": "0.0.1",
+        "subfolder": 1,
+        "visual": "2025-04-30 o 11.09.04.png",
+        "ontology": "ontologia4_pen-with-ob-prop-data-prop-indiv.owl",
+        "description": "2-description.txt",
+        "model": "o4-mini-high"
+    },
+    {
+        "nr": 3,
+        "datetime": "20250-04-30T11:20:00",
+        "huretex_version": "0.0.1",
+        "subfolder": 1,
+        "visual": "2025-04-30 o 11.09.04.png",
+        "ontology": "ontologia4_pen-with-ob-prop-data-prop-indiv.owl",
+        "description": "3-description.txt",
+        "model": "o4",
+        "prompt": "general.txt"
+    },
+    {
+        "nr": 4,
+        "datetime": "20250-04-30T11:40:00",
+        "huretex_version": "0.0.1",
+        "subfolder": 2,
+        "visual": [
+            "Zrzut ekranu 2025-04-30 o 11.27.27.png",
+            "Zrzut ekranu 2025-04-30 o 11.27.41.png"],
+        "ontology": "ontologia4_pen-with-ob-prop-data-prop-indiv.owl",
+        "description": "4-description.txt",
+        "model": "o4-mini-high",
+        "prompt": "informative.txt"
+    },
+    {
+        "nr": 5,
+        "datetime": "20250-04-30T14:10:00",
+        "huretex_version": "0.0.2",
+        "subfolder": 2,
+        "visual": [
+            "Zrzut ekranu 2025-04-30 o 14.08.09.png"],
+        "ontology": "ontologia4_pen-with-ob-prop-data-prop-indiv.owl",
+        "description": "5-description.txt",
+        "model": "o4-mini-high",
+        "prompt": "informative.txt"
+    }
+    ]
+} 
