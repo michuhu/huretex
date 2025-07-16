@@ -1,14 +1,18 @@
-# HUman REadable Twin EXplainer (HURETEX) for Deep Learning Models v. 0.0.1
+# HUman REadable Twin EXplainer (HURETEX) for Deep Learning Models v. 0.0.3
 
-An example for the MNIST data.
+Readable Twin of unreadable model.
 
 ## Requirements:
 
-- NumPy < 2.0
+- see `requirements.txt`
 
-## Note:
+## Changelog:
 
-- Hierarchical clustering of activations takes a little longer, please be patient.
+- Hierarchical clustering has been parallelized using few methods. Choose the one that suits you best.
+- see `CHANGELOG.md`
+
+## Roadmap:
+- see `TODO.md`
 
 ## Idea:
 
@@ -17,18 +21,3 @@ An example for the MNIST data.
 ## Reference:
 
 https://arxiv.org/abs/2504.13150
-
-<!--
-**huretex/huretex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
